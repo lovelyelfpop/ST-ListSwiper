@@ -1,0 +1,6 @@
+.sencha/temp/
+build/
+resources/sass/.sass-cache/
+bootstrap.js
+bootstrap.json
+bootstrap.jsonp

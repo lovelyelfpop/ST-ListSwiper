@@ -1,0 +1,30 @@
+.x-dataview.list {
+	background-color: #fff
+}
+
+.x-dataview.list .x-dataview-item {
+	padding: .7em;
+	position: relative
+}
+
+.x-dataview.list .x-dataview-item.x-item-pressed {
+	background-color: #ddd
+}
+
+.x-dataview.list .x-dataview-item.x-item-selected {
+	background-color: #e6e6e6
+}
+
+.x-dataview.list .x-dataview-item:before {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -1px;
+	left: .6em;
+	right: 0px;
+	border-bottom: solid 1px #dbdbe0
+}
+
+.x-dataview.list .x-dataview-item:last-child:before {
+	border-bottom: none
+}
